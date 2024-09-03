@@ -1,0 +1,251 @@
+.button-bck-green {
+    width: 40px;
+    height: 40px;
+    background-color: var(--colorButtonBck);
+    border-radius: 50%;
+}
+
+.button-bck-gray-27 {
+    width: 27.5px;
+    height: 27.5px;
+    background-color: var(--colorGray);
+    border-radius: 50%;
+}
+
+.button-bck-gray-36 {
+    width: 36px;
+    height: 36px;
+    background-color: var(--colorGray);
+    border-radius: 50%;
+}
+
+.btn-bck-black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: var(--colorButtonBckBlack);
+    border-radius: 50%;
+    z-index: 5;
+
+    i::before {
+        color: white;
+        font-size: 20px;
+    }
+}
+
+
+.btn-left {
+    left: 80px;
+    bottom: 24px;
+}
+
+.height {
+    height: 155px;
+}
+
+.btn-right {
+    right: 80px;
+    bottom: 24px;
+    
+}
+
+.color-icon {
+    color: var(--colorBtnText);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    object-fit: cover;
+}
+
+.contain {
+    object-fit: contain;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-bottom: 80px;
+}
+
+.title-text {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 20px;
+    letter-spacing: -2px;
+    color: var(--colorCardTitle);
+}
+
+.grid {
+    display: grid;
+
+    &.grid-col-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &.grid-col-4 {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 38px;
+    }
+}
+
+.gap-1 {
+    gap: 1px;
+}
+
+.gap-38 {
+    gap: 38px;
+}
+
+.m-top {
+    margin-top: 190px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.item {
+    background-color: var(--colorItemBck);
+}
+
+.item-body {
+    gap: 109px;
+
+    .left {
+        .photo {
+            width: 604px;
+            height: 542px;
+            
+            img {
+                border-radius: 10px;
+            }
+        }
+    }
+
+    .right {
+
+        & > *:not(:last-child) {
+            margin-bottom: 15px;
+        }
+
+        .top-title {
+            color: var(--colorButtonBck);
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 21px;
+        }
+
+        .bottom-title {
+            color: var(--colorNavLink);
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 65px;
+        }
+
+        .desc {
+            width: 432px;
+            color: var(--colorCardTitle);
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 40px;
+        }
+
+        .link {
+            padding: 12px 24px;
+            color: var(--colorLink);
+            border: 1px solid var(--colorLink);
+            border-radius: 5px;
+
+            &:hover {
+                background-color: var(--colorLink);
+                color: var(--colorWhite);
+            }
+        }
+    }
+}
+
+.d-block {
+    display: block;
+}
+
+
+
+.item-scroll-body {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+
+    .btn-left {
+        left: 11px;
+        bottom: 90px;
+    }
+
+    .btn-right {
+        right: 11px;
+        bottom: 90px;
+    }
+    
+    .content-item {
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        
+        &::after {
+            position: absolute;
+            content: '';
+            background: #00000069;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .photo {
+           width: 282px;
+           height: 302px;
+            
+        }
+
+        .content-item-title {
+            position: absolute;
+            width: 82px;
+            bottom: 10px;
+            left: 12px;
+            z-index: 1;
+            color: var(--colorWhite);
+            font-weight: 600;
+            font-size: 25px;
+            line-height: 36px;
+        }
+    }
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.txt-clr {
+    color: var(--colorBlack);
+}
+
+.container-mb {
+    width: 945px;
+    margin-left: auto;
+    margin-right: auto;
+}

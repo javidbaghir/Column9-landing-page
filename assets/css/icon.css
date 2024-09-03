@@ -1,0 +1,89 @@
+.icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-17 {
+    width: 17.5px;
+    height: 17.5px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-20 {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-36 {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+.icon-user {
+    background-image: url(/assets/img/icon-user.svg);
+}
+
+.icon-snow {
+    background-image: url(/assets/img/icon-snow.svg);
+}
+
+.icon-arrow-down {
+    background-image: url(/assets/img/icon-arrow-down.svg);
+}
+
+.icon-message {
+    background-image: url(/assets/img/icon-message.svg);
+}
+
+.icon-phone {
+    background-image: url(/assets/img/icon-phone.svg);
+}
+
+.icon-phone-24 {
+    background-image: url(/assets/img/icon-phone-24.svg);
+}
+
+.icon-fb {
+    background-image: url(/assets/img/icon-fb.svg);
+}
+
+.icon-twitter {
+    background-image: url(/assets/img/icon-twitter.svg);
+}
+
+.icon-facebook-ft {
+    background-image: url(/assets/img/icon-facebook-footer.svg);
+}
+
+.icon-twitter-ft {
+    background-image: url(/assets/img/icon-twitter-footer.svg);
+}
+
+.icon-instagram-ft {
+    background-image: url(/assets/img/icon-instagram-footer.svg);
+}
+
+.icon-linkedin-ft {
+    background-image: url(/assets/img/icon-linkedin-footer.svg);
+}

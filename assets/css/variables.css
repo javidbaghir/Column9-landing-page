@@ -1,0 +1,37 @@
+:root {
+
+    /* Colors */
+
+    --colorWhite: #fff;
+    --colorBlack: #000;
+    --colorButtonBck: #0F756B;
+    --colorButtonBckBlack: #00000033;
+    --colorBorderInput: #D9DCE0;
+    --colorNavLink: #404040CC;
+    --colorInputBck: #FAFAFC;
+    --colorText: #F5F5F5;
+    --colorBtnText: #1B353D;
+    --colorCardTitle: #333333;
+    --colorInput: #676767;
+    --colorInputBorder: #D9DCE0;
+    --colorItemBck: #FCFCFC;
+    --colorLink: #1B353D;
+    --colorGray: #D3D7D7;
+    --colorLightGreen: #F4F9FA;
+    --colorBorderGray: #DFE3E4;
+    --colorBottomInputBorder: #E1E1E1;
+    --colorFtPlaceholder: #3B7586;
+    --colorInputMobBck: #F2F2F2;
+
+
+    
+
+    /* Fonts */
+
+    --fontopensans: "Open Sans", sans-serif;
+    --fontInter: "Inter", "sans-serif";
+ 
+
+
+    
+}
